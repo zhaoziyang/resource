@@ -1,0 +1,38 @@
+PODS:
+  - Crashlytics (3.8.4):
+    - Fabric (~> 1.6.3)
+  - Fabric (1.6.11)
+  - HappyDNS (0.3.12)
+  - Masonry (1.0.2)
+  - PLShortVideoKit (1.10.0):
+    - PLShortVideoKit/ex-libMuseProcessor (= 1.10.0)
+    - PLShortVideoKit/libMuseProcessor (= 1.10.0)
+    - Qiniu (~> 7.1)
+  - PLShortVideoKit/ex-libMuseProcessor (1.10.0):
+    - Qiniu (~> 7.1)
+  - PLShortVideoKit/libMuseProcessor (1.10.0):
+    - Qiniu (~> 7.1)
+  - Qiniu (7.2.3):
+    - HappyDNS (~> 0.3)
+
+DEPENDENCIES:
+  - Crashlytics (= 3.8.4)
+  - Fabric (= 1.6.11)
+  - Masonry (= 1.0.2)
+  - PLShortVideoKit (from `../`)
+
+EXTERNAL SOURCES:
+  PLShortVideoKit:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Crashlytics: 79e236942ca1e7fc641df1feb9a275360a78ab6a
+  Fabric: 5911403591946b8228ab1c51d98f1d7137e863c6
+  HappyDNS: 691a3041128055d09866f86e6e9ca90f24da1f18
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  PLShortVideoKit: 19ee6def3ce596436f4fea1556ecbde4f044539a
+  Qiniu: ae0fea1cc379fae1560d8748ac537e0fbeb8626e
+
+PODFILE CHECKSUM: 613fdf88dc45f2e01aa56061a7239bd27687cd50
+
+COCOAPODS: 1.4.0

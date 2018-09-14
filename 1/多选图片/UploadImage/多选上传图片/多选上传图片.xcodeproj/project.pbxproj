@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		991573271D38DAC200144CA9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 991573261D38DAC200144CA9 /* main.m */; };
+		9915732A1D38DAC200144CA9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 991573291D38DAC200144CA9 /* AppDelegate.m */; };
+		9915732D1D38DAC200144CA9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9915732C1D38DAC200144CA9 /* ViewController.m */; };
+		991573301D38DAC200144CA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9915732E1D38DAC200144CA9 /* Main.storyboard */; };
+		991573321D38DAC200144CA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 991573311D38DAC200144CA9 /* Assets.xcassets */; };
+		991573351D38DAC200144CA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 991573331D38DAC200144CA9 /* LaunchScreen.storyboard */; };
+		991573401D38DAC200144CA9 /* ______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9915733F1D38DAC200144CA9 /* ______Tests.m */; };
+		9915734B1D38DAC200144CA9 /* ______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9915734A1D38DAC200144CA9 /* ______UITests.m */; };
+		995644931D3F3F36006BA52A /* AddCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 995644921D3F3F36006BA52A /* AddCollectionViewCell.m */; };
+		995644961D3F58B6006BA52A /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 995644951D3F58B6006BA52A /* ImageViewController.m */; };
+		9956449E1D3F80E2006BA52A /* ZYQAssetPicker.Bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9956449B1D3F80E2006BA52A /* ZYQAssetPicker.Bundle */; };
+		9956449F1D3F80E2006BA52A /* ZYQAssetPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9956449D1D3F80E2006BA52A /* ZYQAssetPickerController.m */; };
+		99EF3EEA1D3E0DF400EBF4F2 /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 99EF3EE91D3E0DF400EBF4F2 /* CollectionViewCell.m */; };
+		99EF3EEC1D3E122F00EBF4F2 /* common_del_circle@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 99EF3EEB1D3E122F00EBF4F2 /* common_del_circle@3x.png */; };
+		99EF3EEE1D3E264B00EBF4F2 /* addImage@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99EF3EED1D3E264B00EBF4F2 /* addImage@2x.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9915733C1D38DAC200144CA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9915731A1D38DAC200144CA9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 991573211D38DAC200144CA9;
+			remoteInfo = "多选上传图片";
+		};
+		991573471D38DAC200144CA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9915731A1D38DAC200144CA9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 991573211D38DAC200144CA9;
+			remoteInfo = "多选上传图片";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		991573221D38DAC200144CA9 /* 多选上传图片.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "多选上传图片.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		991573261D38DAC200144CA9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		991573281D38DAC200144CA9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		991573291D38DAC200144CA9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9915732B1D38DAC200144CA9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9915732C1D38DAC200144CA9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9915732F1D38DAC200144CA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		991573311D38DAC200144CA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		991573341D38DAC200144CA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		991573361D38DAC200144CA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9915733B1D38DAC200144CA9 /* 多选上传图片Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "多选上传图片Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9915733F1D38DAC200144CA9 /* ______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______Tests.m"; sourceTree = "<group>"; };
+		991573411D38DAC200144CA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		991573461D38DAC200144CA9 /* 多选上传图片UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "多选上传图片UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9915734A1D38DAC200144CA9 /* ______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______UITests.m"; sourceTree = "<group>"; };
+		9915734C1D38DAC200144CA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		995644911D3F3F36006BA52A /* AddCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddCollectionViewCell.h; sourceTree = "<group>"; };
+		995644921D3F3F36006BA52A /* AddCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddCollectionViewCell.m; sourceTree = "<group>"; };
+		995644941D3F58B6006BA52A /* ImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewController.h; sourceTree = "<group>"; };
+		995644951D3F58B6006BA52A /* ImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageViewController.m; sourceTree = "<group>"; };
+		9956449B1D3F80E2006BA52A /* ZYQAssetPicker.Bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ZYQAssetPicker.Bundle; sourceTree = "<group>"; };
+		9956449C1D3F80E2006BA52A /* ZYQAssetPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYQAssetPickerController.h; sourceTree = "<group>"; };
+		9956449D1D3F80E2006BA52A /* ZYQAssetPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYQAssetPickerController.m; sourceTree = "<group>"; };
+		99EF3EE81D3E0DF400EBF4F2 /* CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
+		99EF3EE91D3E0DF400EBF4F2 /* CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
+		99EF3EEB1D3E122F00EBF4F2 /* common_del_circle@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "common_del_circle@3x.png"; sourceTree = "<group>"; };
+		99EF3EED1D3E264B00EBF4F2 /* addImage@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "addImage@2x.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9915731F1D38DAC200144CA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		991573381D38DAC200144CA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		991573431D38DAC200144CA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		991573191D38DAC200144CA9 = {
+			isa = PBXGroup;
+			children = (
+				99EF3EEB1D3E122F00EBF4F2 /* common_del_circle@3x.png */,
+				99EF3EED1D3E264B00EBF4F2 /* addImage@2x.jpg */,
+				991573241D38DAC200144CA9 /* 多选上传图片 */,
+				9915733E1D38DAC200144CA9 /* 多选上传图片Tests */,
+				991573491D38DAC200144CA9 /* 多选上传图片UITests */,
+				991573231D38DAC200144CA9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		991573231D38DAC200144CA9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				991573221D38DAC200144CA9 /* 多选上传图片.app */,
+				9915733B1D38DAC200144CA9 /* 多选上传图片Tests.xctest */,
+				991573461D38DAC200144CA9 /* 多选上传图片UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		991573241D38DAC200144CA9 /* 多选上传图片 */ = {
+			isa = PBXGroup;
+			children = (
+				9956449A1D3F80CB006BA52A /* ZYQAssetPickerController */,
+				991573281D38DAC200144CA9 /* AppDelegate.h */,
+				991573291D38DAC200144CA9 /* AppDelegate.m */,
+				9915732B1D38DAC200144CA9 /* ViewController.h */,
+				9915732C1D38DAC200144CA9 /* ViewController.m */,
+				995644941D3F58B6006BA52A /* ImageViewController.h */,
+				995644951D3F58B6006BA52A /* ImageViewController.m */,
+				99EF3EE81D3E0DF400EBF4F2 /* CollectionViewCell.h */,
+				99EF3EE91D3E0DF400EBF4F2 /* CollectionViewCell.m */,
+				995644911D3F3F36006BA52A /* AddCollectionViewCell.h */,
+				995644921D3F3F36006BA52A /* AddCollectionViewCell.m */,
+				9915732E1D38DAC200144CA9 /* Main.storyboard */,
+				991573311D38DAC200144CA9 /* Assets.xcassets */,
+				991573331D38DAC200144CA9 /* LaunchScreen.storyboard */,
+				991573361D38DAC200144CA9 /* Info.plist */,
+				991573251D38DAC200144CA9 /* Supporting Files */,
+			);
+			path = "多选上传图片";
+			sourceTree = "<group>";
+		};
+		991573251D38DAC200144CA9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				991573261D38DAC200144CA9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9915733E1D38DAC200144CA9 /* 多选上传图片Tests */ = {
+			isa = PBXGroup;
+			children = (
+				9915733F1D38DAC200144CA9 /* ______Tests.m */,
+				991573411D38DAC200144CA9 /* Info.plist */,
+			);
+			path = "多选上传图片Tests";
+			sourceTree = "<group>";
+		};
+		991573491D38DAC200144CA9 /* 多选上传图片UITests */ = {
+			isa = PBXGroup;
+			children = (
+				9915734A1D38DAC200144CA9 /* ______UITests.m */,
+				9915734C1D38DAC200144CA9 /* Info.plist */,
+			);
+			path = "多选上传图片UITests";
+			sourceTree = "<group>";
+		};
+		9956449A1D3F80CB006BA52A /* ZYQAssetPickerController */ = {
+			isa = PBXGroup;
+			children = (
+				9956449B1D3F80E2006BA52A /* ZYQAssetPicker.Bundle */,
+				9956449C1D3F80E2006BA52A /* ZYQAssetPickerController.h */,
+				9956449D1D3F80E2006BA52A /* ZYQAssetPickerController.m */,
+			);
+			name = ZYQAssetPickerController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		991573211D38DAC200144CA9 /* 多选上传图片 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9915734F1D38DAC200144CA9 /* Build configuration list for PBXNativeTarget "多选上传图片" */;
+			buildPhases = (
+				9915731E1D38DAC200144CA9 /* Sources */,
+				9915731F1D38DAC200144CA9 /* Frameworks */,
+				991573201D38DAC200144CA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "多选上传图片";
+			productName = "多选上传图片";
+			productReference = 991573221D38DAC200144CA9 /* 多选上传图片.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9915733A1D38DAC200144CA9 /* 多选上传图片Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 991573521D38DAC200144CA9 /* Build configuration list for PBXNativeTarget "多选上传图片Tests" */;
+			buildPhases = (
+				991573371D38DAC200144CA9 /* Sources */,
+				991573381D38DAC200144CA9 /* Frameworks */,
+				991573391D38DAC200144CA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9915733D1D38DAC200144CA9 /* PBXTargetDependency */,
+			);
+			name = "多选上传图片Tests";
+			productName = "多选上传图片Tests";
+			productReference = 9915733B1D38DAC200144CA9 /* 多选上传图片Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		991573451D38DAC200144CA9 /* 多选上传图片UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 991573551D38DAC200144CA9 /* Build configuration list for PBXNativeTarget "多选上传图片UITests" */;
+			buildPhases = (
+				991573421D38DAC200144CA9 /* Sources */,
+				991573431D38DAC200144CA9 /* Frameworks */,
+				991573441D38DAC200144CA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				991573481D38DAC200144CA9 /* PBXTargetDependency */,
+			);
+			name = "多选上传图片UITests";
+			productName = "多选上传图片UITests";
+			productReference = 991573461D38DAC200144CA9 /* 多选上传图片UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9915731A1D38DAC200144CA9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = holier_zyq;
+				TargetAttributes = {
+					991573211D38DAC200144CA9 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = YX8742TTYZ;
+					};
+					9915733A1D38DAC200144CA9 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 991573211D38DAC200144CA9;
+					};
+					991573451D38DAC200144CA9 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 991573211D38DAC200144CA9;
+					};
+				};
+			};
+			buildConfigurationList = 9915731D1D38DAC200144CA9 /* Build configuration list for PBXProject "多选上传图片" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				de,
+				es,
+				ja,
+				pl,
+				"zh-Hans",
+			);
+			mainGroup = 991573191D38DAC200144CA9;
+			productRefGroup = 991573231D38DAC200144CA9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				991573211D38DAC200144CA9 /* 多选上传图片 */,
+				9915733A1D38DAC200144CA9 /* 多选上传图片Tests */,
+				991573451D38DAC200144CA9 /* 多选上传图片UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		991573201D38DAC200144CA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				991573351D38DAC200144CA9 /* LaunchScreen.storyboard in Resources */,
+				99EF3EEC1D3E122F00EBF4F2 /* common_del_circle@3x.png in Resources */,
+				991573321D38DAC200144CA9 /* Assets.xcassets in Resources */,
+				991573301D38DAC200144CA9 /* Main.storyboard in Resources */,
+				99EF3EEE1D3E264B00EBF4F2 /* addImage@2x.jpg in Resources */,
+				9956449E1D3F80E2006BA52A /* ZYQAssetPicker.Bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		991573391D38DAC200144CA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		991573441D38DAC200144CA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9915731E1D38DAC200144CA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9956449F1D3F80E2006BA52A /* ZYQAssetPickerController.m in Sources */,
+				9915732D1D38DAC200144CA9 /* ViewController.m in Sources */,
+				99EF3EEA1D3E0DF400EBF4F2 /* CollectionViewCell.m in Sources */,
+				995644931D3F3F36006BA52A /* AddCollectionViewCell.m in Sources */,
+				9915732A1D38DAC200144CA9 /* AppDelegate.m in Sources */,
+				991573271D38DAC200144CA9 /* main.m in Sources */,
+				995644961D3F58B6006BA52A /* ImageViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		991573371D38DAC200144CA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				991573401D38DAC200144CA9 /* ______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		991573421D38DAC200144CA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9915734B1D38DAC200144CA9 /* ______UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9915733D1D38DAC200144CA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 991573211D38DAC200144CA9 /* 多选上传图片 */;
+			targetProxy = 9915733C1D38DAC200144CA9 /* PBXContainerItemProxy */;
+		};
+		991573481D38DAC200144CA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 991573211D38DAC200144CA9 /* 多选上传图片 */;
+			targetProxy = 991573471D38DAC200144CA9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9915732E1D38DAC200144CA9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9915732F1D38DAC200144CA9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		991573331D38DAC200144CA9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				991573341D38DAC200144CA9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9915734D1D38DAC200144CA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9915734E1D38DAC200144CA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		991573501D38DAC200144CA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YX8742TTYZ;
+				INFOPLIST_FILE = "多选上传图片/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.holier.www.------11";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		991573511D38DAC200144CA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YX8742TTYZ;
+				INFOPLIST_FILE = "多选上传图片/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.holier.www.------11";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		991573531D38DAC200144CA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "多选上传图片Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.holier.www.------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/多选上传图片.app/多选上传图片";
+			};
+			name = Debug;
+		};
+		991573541D38DAC200144CA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "多选上传图片Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.holier.www.------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/多选上传图片.app/多选上传图片";
+			};
+			name = Release;
+		};
+		991573561D38DAC200144CA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "多选上传图片UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.holier.www.------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "多选上传图片";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		991573571D38DAC200144CA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "多选上传图片UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.holier.www.------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "多选上传图片";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9915731D1D38DAC200144CA9 /* Build configuration list for PBXProject "多选上传图片" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9915734D1D38DAC200144CA9 /* Debug */,
+				9915734E1D38DAC200144CA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9915734F1D38DAC200144CA9 /* Build configuration list for PBXNativeTarget "多选上传图片" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				991573501D38DAC200144CA9 /* Debug */,
+				991573511D38DAC200144CA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		991573521D38DAC200144CA9 /* Build configuration list for PBXNativeTarget "多选上传图片Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				991573531D38DAC200144CA9 /* Debug */,
+				991573541D38DAC200144CA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		991573551D38DAC200144CA9 /* Build configuration list for PBXNativeTarget "多选上传图片UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				991573561D38DAC200144CA9 /* Debug */,
+				991573571D38DAC200144CA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9915731A1D38DAC200144CA9 /* Project object */;
+}
